@@ -1,0 +1,10 @@
+.woocommerce-checkout div#customer_details div.col-2 {width:99%;float: right;clear: right;}
+.woocommerce-checkout div#customer_details div.col-1, 
+.woocommerce-checkout div#customer_details h3#ship-to-different-address {background:#000;display:none;position:absolute;}
+.woocommerce-checkout div#customer_details {width:47%;float:left;}
+div#order_review.woocommerce-checkout-review-order, h3#order_review_heading {float: right;clear: right;width:47%;margin-left:0;}
+div.woocommerce {width:100%;float:left;}
+@media only screen and (max-width: 1023px) {
+div#order_review.woocommerce-checkout-review-order, h3#order_review_heading {width:100%;}
+.woocommerce-checkout div#customer_details {width:100%;} 
+}
